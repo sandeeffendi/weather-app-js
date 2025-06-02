@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Weather App | Sande's Projects</title>
+  </head>
+  <body>
+    <main>
+      <div class="weather-container">
+        <form action="">
+          <input id="searchValue" type="text" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <section class="result">
+          <figure id="city" class="name">
+            <figcaption>Indonesia</figcaption>
+            <img src="https://flagsapi.com/ID/shiny/32.png" alt="" />
+          </figure>
+
+          <figure id="temperature" class="temperature">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" />
+            <figcaption>
+              <span>31</span>
+              <sup>o</sup>
+            </figcaption>
+          </figure>
+          <p class="description">Overcast Clouds</p>
+
+          <ul>
+            <li>
+              <span>Clouds</span>
+              <i class="fa-solid fa-cloud"></i>
+              <span id="clouds">98</span>%
+            </li>
+            <li>
+              <span>Humidity</span>
+              <i class="fa-solid fa-droplet"></i>
+              <span id="humidity">55</span>%
+            </li>
+
+            <li>
+              <span>Pressure</span>
+              <i class="fa-solid fa-gauge"></i>
+              <span id="pressure">1001</span>hPa
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
