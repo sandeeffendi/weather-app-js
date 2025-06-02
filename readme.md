@@ -2,8 +2,7 @@
 
 Welcome to **Realtime Weather App**, a simple and responsive web application that displays real-time weather information based on city names around the world. Built using HTML, CSS, and Vanilla JavaScript, this app is lightweight, fast, and easy to deploy.
 
-> 🔗 **Live Demo** (optional): [https://your-username.github.io/weather-app-js/](https://your-username.github.io/weather-app-js/)  
-> _(Replace with your actual GitHub Pages URL once deployed)_
+> 🔗 **Live Demo** : [https://weather-app-js-seven.vercel.app/](https://weather-app-js-seven.vercel.app/)  
 
 ---
 
