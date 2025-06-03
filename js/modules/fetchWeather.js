@@ -4,6 +4,6 @@ export const fetchWeather = async (url, query) => {
     const data = await response.json();
     return data;
   } catch (error) {
-    throw new Error("Fetch API gagal");
+    throw new Error("Fetching weather data failed");
   }
 };

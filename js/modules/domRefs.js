@@ -7,3 +7,5 @@ export const humidity = document.getElementById("humidity");
 export const pressure = document.getElementById("pressure");
 export const weatherApp = document.querySelector(".weather-container");
 export const form = document.querySelector("form");
+export const hourlyForecast = document.getElementById("hourly-forecast");
+
