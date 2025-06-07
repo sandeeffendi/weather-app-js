@@ -43,7 +43,7 @@ To run the app locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/weather-app-js.git
+   git clone https://github.com/sandeeffendi/weather-app-js.git
    cd weather-app-js
 
 2. **Install Bun (if not installed)**
